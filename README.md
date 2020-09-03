@@ -1,3 +1,8 @@
+[![](https://poggit.pmmp.io/shield.state/Extinguish)](https://poggit.pmmp.io/p/Extinguish)
+<a href="https://poggit.pmmp.io/p/Extinguish"><img src="https://poggit.pmmp.io/shield.state/Extinguish"></a>
+[![](https://poggit.pmmp.io/shield.api/Extinguish)](https://poggit.pmmp.io/p/Extinguish)
+<a href="https://poggit.pmmp.io/p/Extinguish"><img src="https://poggit.pmmp.io/shield.api/Extinguish"></a>
+
 # Extinguish
 **Getting out you in fire**<br/>
 **Command:** **__/extinguish__**<br/>
