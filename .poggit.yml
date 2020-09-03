@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Clarence2810/Extinguish
+build-by-default: true
+branches:
+- master
+projects:
+  Extinguish:
+    path: ""
+...
