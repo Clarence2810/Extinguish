@@ -1,0 +1,18 @@
+#  _____      _   _                   _     _     
+# | ____|_  _| |_(_)_ __   __ _ _   _(_)___| |__  
+# |  _| \ \/ / __| | '_ \ / _` | | | | / __| '_ \      Simple plugin by: Clarence2810, Permission: extinguish.command
+# | |___ >  <| |_| | | | | (_| | |_| | \__ \ | | |     Plugin Created: 4:02am 9/3/20 EST
+# |_____/_/\_\\__|_|_| |_|\__, |\__,_|_|___/_| |_|     Discord Server: https://discord.gg/Ad2uDSp
+#                         |___/                   
+
+#If console sent extinguish command
+player-only: Player Only Thank You!!
+
+#If player sent extinguish command but dont have permission
+no-permission: §cYou dont have permission to run extinguish command!
+
+#If player sent extinguish command but not on fire
+not-on-fire: §cYou are not even on fire how im gonna extinguish you?
+
+#Success Sending Extinguish Command
+extinguish-success: §aYou've been extinguished COOL!
