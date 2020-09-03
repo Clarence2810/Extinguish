@@ -1,6 +1,6 @@
 # Extinguish
 **Getting out you in fire**<br/>
-**Command:** **__/extinguish_**<br/>
+**Command:** **__/extinguish__**<br/>
 **Aliases:** **__/ext__**<br/>
 **Permission:** **__extinguish.command__**<br/>
 
