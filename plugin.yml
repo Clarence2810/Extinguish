@@ -1,13 +1,19 @@
 name: Extinguish
-version: 1.0
+version: 1.2
 api: [3.0.0, 4.0.0]
 author: Clarence2810
 main: clarence2810\extinguish\Main
-description: Part of my core (SaioMC Core)
+description: Part of my core (SaioMC Core) 
 
 commands:
   extinguish:
    description: Extinguishes you if you're on fire
    aliases:
    - ext
-   permission: extinguish.command
+permissions:
+  extinguish.command:
+    default: op
+    description: You can extinguish your self
+  extinguish.command.other:
+    default: op
+    description: You can extinguish other player

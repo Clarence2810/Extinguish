@@ -1,18 +1,36 @@
 #  _____      _   _                   _     _     
 # | ____|_  _| |_(_)_ __   __ _ _   _(_)___| |__  
 # |  _| \ \/ / __| | '_ \ / _` | | | | / __| '_ \      Simple plugin by: Clarence2810, Permission: extinguish.command
-# | |___ >  <| |_| | | | | (_| | |_| | \__ \ | | |     Plugin Created: 4:02am 9/3/20 EST
+# | |___ >  <| |_| | | | | (_| | |_| | \__ \ | | |     Plugin Updated: 7:10 pm 9/6/10 EST
 # |_____/_/\_\\__|_|_| |_|\__, |\__,_|_|___/_| |_|     Discord Server: https://discord.gg/Ad2uDSp
 #                         |___/                   
 
-#If console sent extinguish command
-player-only: Player Only Thank You!!
+############################## GENERAL MESSAGES ##############################
 
 #If player sent extinguish command but dont have permission
 no-permission: §cYou dont have permission to run extinguish command!
 
+#If sender dont have permission on extinguishing other player:
+other-no-permission: §cYou dont have permission to extinguish other player!
+
+############################## EXTINGUISHING YOUR SELF ##############################
+
 #If player sent extinguish command but not on fire
-not-on-fire: §cYou are not even on fire how im gonna extinguish you?
+not-on-fire: §cYou're not even on fire how im gonna extinguish you?
 
 #Success Sending Extinguish Command
-extinguish-success: §aYou've been extinguished COOL!
+extinguished-success: §aYou've been extinguished COOL!
+
+############################## EXTINGUISHING OTHER PLAYER ##############################
+
+#When player is offline or not extist
+player-not-found: §c[RADAR] I can't find that player please specify it!
+
+#If player is not on fire | Variable: {player} - who is the player you want to get extinguished
+other-not-on-fire: §c{player} is not even on fire dont trick me
+
+#Success extinguished player
+#Variable: {sender} - Who run the command to extinguish other player
+player-extinguished-success: §aYou've been extinguished by {sender} COOL RIGHT!
+#Variable: {player} - who get extinguished
+sender-extinguish-success: §aYou extinguished {player} nice!
