@@ -1,7 +1,7 @@
 #  _____      _   _                   _     _     
 # | ____|_  _| |_(_)_ __   __ _ _   _(_)___| |__  
 # |  _| \ \/ / __| | '_ \ / _` | | | | / __| '_ \      Simple plugin by: Clarence2810, Permission: extinguish.command
-# | |___ >  <| |_| | | | | (_| | |_| | \__ \ | | |     Plugin Updated: 7:10 pm 9/6/10 EST
+# | |___ >  <| |_| | | | | (_| | |_| | \__ \ | | |     Plugin Updated: 2:18am 9/7/20 EST
 # |_____/_/\_\\__|_|_| |_|\__, |\__,_|_|___/_| |_|     Discord Server: https://discord.gg/Ad2uDSp
 #                         |___/                   
 
@@ -34,3 +34,19 @@ other-not-on-fire: §c{player} is not even on fire dont trick me
 player-extinguished-success: §aYou've been extinguished by {sender} COOL RIGHT!
 #Variable: {player} - who get extinguished
 sender-extinguish-success: §aYou extinguished {player} nice!
+
+############################## COOLDOWN SYSTEM ##############################
+
+#If you wanted to have cooldown to run extinguish command | True = theres cooldown and Anything you type = theres no cooldown
+command-cooldown: yes
+#If you setted command-cooldown in true type a second how long that player can run again the extinguish command
+extinguish-cooldown: 10
+
+#When sender is on cooldown | Variable: {remaining} - How long can run again the extinguish
+on-cooldown: §cYou are currently at {remaining}seconds(s) cooldown!
+
+#When player is in cooldown this will be sended to sender if the player is specified to get extinguish
+#Variable: {remaining} - How long can run again the extinguish
+#Variable: {player} - The player specified on sender comman
+other-on-cooldown: §c{player} is currently at {remaining}second(s) cooldown!
+
