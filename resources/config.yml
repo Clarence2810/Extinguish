@@ -38,7 +38,7 @@ sender-extinguish-success: §aYou extinguished {player} nice!
 ############################## COOLDOWN SYSTEM ##############################
 
 #If you wanted to have cooldown to run extinguish command | True = theres cooldown and Anything you type = theres no cooldown
-command-cooldown: yes
+command-cooldown: true
 #If you setted command-cooldown in true type a second how long that player can run again the extinguish command
 extinguish-cooldown: 10
 
